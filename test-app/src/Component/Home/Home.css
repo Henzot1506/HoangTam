@@ -1,0 +1,46 @@
+.best-seller-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+}
+
+.product-title {
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    padding: 5px 10px;
+}
